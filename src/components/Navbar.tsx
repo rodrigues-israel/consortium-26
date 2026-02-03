@@ -9,7 +9,7 @@ const navigation = [
   { name: "About", href: "/#about" },
   { name: "Speakers", href: "/#speakers" },
   { name: "Events", href: "/#events" },
-  { name: "Contact", href: "/#contact" },
+  { name: "Contact", href: "/#footer" },
 ];
 
 const Navbar = () => {

@@ -60,7 +60,7 @@ const Speakers = () => {
         <div className="flex justify-center">
           <SplitText
             text="PAST GLIMPSES"
-            className="text-white text-shadow-lg text-shadow-red-900 text-center text-7xl font-poppins font-bold mt-20"
+            className="text-white text-shadow-lg text-shadow-red-900 text-center text-6xl font-poppins font-bold mt-20"
             delay={100}
             duration={0.6}
             ease="power3.out"
