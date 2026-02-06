@@ -1,13 +1,13 @@
 import SplitText from "./SplitText";
 import SpeakerCard from "./Speakers";
-import speakersBg from "../assets/speakers_bg.png";
+import speakersBg from "../assets/speakers_bg.webp";
 
-import kiran_bedi from "../assets/speakers/kiran_bedi.png";
-import simon from "../assets/speakers/simon.png";
-import jatin from "../assets/speakers/jatin.png";
-import anilswarup from "../assets/speakers/anilswarup.png";
-import pankhuri from "../assets/speakers/pankhuri.png";
-import aman from "../assets/speakers/aman.png";
+import kiran_bedi from "../assets/speakers/kiran_bedi.webp";
+import simon from "../assets/speakers/simon.webp";
+import jatin from "../assets/speakers/jatin.webp";
+import anilswarup from "../assets/speakers/anilswarup.webp";
+import pankhuri from "../assets/speakers/pankhuri.webp";
+import aman from "../assets/speakers/aman.webp";
 
 const speakersData = [
   {
@@ -57,7 +57,7 @@ const Speakers = () => {
       >
         <div className="flex justify-center">
           <SplitText
-            text="PAST GLIMPSES"
+            text="PAST SPEAKERS"
             className="text-white text-shadow-lg text-shadow-red-900 text-center text-6xl font-poppins font-bold mt-20"
             delay={100}
             duration={0.6}

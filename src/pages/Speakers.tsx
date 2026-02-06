@@ -1,34 +1,34 @@
 // import speakersBg from "../assets/speakers_bg.webp";
 import SplitText from "@/components/SplitText.tsx";
 import SpeakerCard from "@/components/Speakers";
-import speakersBg from "../assets/speakers_bg.png";
+import speakersBg from "../assets/speakers_bg.webp";
 
-import kiran_bedi from "../assets/speakers/kiran_bedi.png";
-import simon from "../assets/speakers/simon.png";
-import jatin from "../assets/speakers/jatin.png";
-import anilswarup from "../assets/speakers/anilswarup.png";
-import pankhuri from "../assets/speakers/pankhuri.png";
-import aman from "../assets/speakers/aman.png";
-import pranav from "../assets/speakers/pranav.png";
-import rajeevsuri from "../assets/speakers/rajeevsuri.png";
-import vishwajeet from "../assets/speakers/vishwajeet.png";
-import aditya from "../assets/speakers/aditya.png";
-import sanket from "../assets/speakers/sanket.png";
-import tridha from "../assets/speakers/tridha.png";
-import jimmy from "../assets/speakers/jimmy.png";
-import satish from "../assets/speakers/satish.png";
-import divya from "../assets/speakers/divya.png";
-import nandu from "../assets/speakers/nandu.png";
-import sharad from "../assets/speakers/sharad.png";
-import shirish from "../assets/speakers/shirish.png";
-import karan from "../assets/speakers/karan.png";
-import harsh from "../assets/speakers/harsh.png";
-import krishnan from "../assets/speakers/krishnan.png";
-import nitin from "../assets/speakers/nitin.png";
-import somdutta from "../assets/speakers/somdutta.png";
-import ashwani from "../assets/speakers/ashwani.png";
-import sohrab from "../assets/speakers/sohrab.png";
-import anurag from "../assets/speakers/anurag.png";
+import kiran_bedi from "../assets/speakers/kiran_bedi.webp";
+import simon from "../assets/speakers/simon.webp";
+import jatin from "../assets/speakers/jatin.webp";
+import anilswarup from "../assets/speakers/anilswarup.webp";
+import pankhuri from "../assets/speakers/pankhuri.webp";
+import aman from "../assets/speakers/aman.webp";
+import pranav from "../assets/speakers/pranav.webp";
+import rajeevsuri from "../assets/speakers/rajeevsuri.webp";
+import vishwajeet from "../assets/speakers/vishwajeet.webp";
+import aditya from "../assets/speakers/aditya.webp";
+import sanket from "../assets/speakers/sanket.webp";
+import tridha from "../assets/speakers/tridha.webp";
+import jimmy from "../assets/speakers/jimmy.webp";
+import satish from "../assets/speakers/satish.webp";
+import divya from "../assets/speakers/divya.webp";
+import nandu from "../assets/speakers/nandu.webp";
+import sharad from "../assets/speakers/sharad.webp";
+import shirish from "../assets/speakers/shirish.webp";
+import karan from "../assets/speakers/karan.webp";
+import harsh from "../assets/speakers/harsh.webp";
+import krishnan from "../assets/speakers/krishnan.webp";
+import nitin from "../assets/speakers/nitin.webp";
+import somdutta from "../assets/speakers/somdutta.webp";
+import ashwani from "../assets/speakers/ashwani.webp";
+import sohrab from "../assets/speakers/sohrab.webp";
+import anurag from "../assets/speakers/anurag.webp";
 
 const speakersData = [
   {
@@ -198,7 +198,7 @@ const Speakers = () => {
       >
         <div className="flex justify-center">
           <SplitText
-            text="PAST GLIMPSES"
+            text="PAST SPEAKERS"
             className="text-white text-shadow-lg text-shadow-red-900 text-center text-6xl font-poppins font-bold mt-20"
             delay={100}
             duration={0.6}

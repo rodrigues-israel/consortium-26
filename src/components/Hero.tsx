@@ -1,5 +1,5 @@
 import Aurora from "./Aurora";
-import consortium from "../assets/consortium.png";
+import consortium from "../assets/consortium.webp";
 
 const Hero = () => {
   return (

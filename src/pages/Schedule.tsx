@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SplitText from "../components/SplitText";
-import speakersBg from "../assets/speakers_bg.png";
+import speakersBg from "../assets/speakers_bg.webp";
 import ScheduleCard from "@/components/ScheduleCard";
 
 import Timeline from "@mui/lab/Timeline";

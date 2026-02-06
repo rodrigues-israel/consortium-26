@@ -1,4 +1,4 @@
-import eventCardBg from "../assets/eventCardBg.png";
+import eventCardBg from "../assets/eventCardBg.webp";
 
 interface EventProps {
   eventLogo?: string;

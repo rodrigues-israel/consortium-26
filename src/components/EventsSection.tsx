@@ -1,19 +1,19 @@
 import SplitText from "./SplitText";
-import eventsBg from "../assets/eventsBg.png";
+import eventsBg from "../assets/eventsBg.webp";
 import Event from "./Event";
 
 // import vishleshan from "../assets/events/vishleshan.png";
-import iplauction from "../assets/events/iplauction.png";
-import neo from "../assets/events/neo.png";
-import jugaad from "../assets/events/jugaad.png";
-import suc from "../assets/events/suc.png";
-import wallstreet from "../assets/events/wallstreet.png";
-import expo from "../assets/events/expo.png";
-import ceo from "../assets/events/ceo.png";
-import hultprize from "../assets/events/hultprize.png";
-import internshipfair from "../assets/events/internshipfair.png";
-import networkingarena from "../assets/events/networkingarena.png";
-import pitchinthecar from "../assets/events/pitchinthecar.png";
+import iplauction from "../assets/events/iplauction.webp";
+import neo from "../assets/events/neo.webp";
+import jugaad from "../assets/events/jugaad.webp";
+import suc from "../assets/events/suc.webp";
+import wallstreet from "../assets/events/wallstreet.webp";
+import expo from "../assets/events/expo.webp";
+import ceo from "../assets/events/ceo.webp";
+import hultprize from "../assets/events/hultprize.webp";
+import internshipfair from "../assets/events/internshipfair.webp";
+import networkingarena from "../assets/events/networkingarena.webp";
+import pitchinthecar from "../assets/events/pitchinthecar.webp";
 
 const eventsData = [
   // {

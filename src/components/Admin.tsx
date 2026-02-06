@@ -1,4 +1,4 @@
-import teamBg from "@/assets/teambg.png";
+import teamBg from "@/assets/teambg.webp";
 
 interface TeamProps {
   name?: string;

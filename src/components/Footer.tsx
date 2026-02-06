@@ -1,4 +1,4 @@
-import ecellLogoWhite from "../assets/ecell-white-img.png";
+import ecellLogoWhite from "../assets/ecell-white-img.webp";
 
 const Footer = () => {
   return (

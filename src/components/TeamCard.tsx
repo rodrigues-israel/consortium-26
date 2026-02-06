@@ -1,4 +1,4 @@
-import teamBg from "@/assets/teambg.png";
+import teamBg from "@/assets/teambg.webp";
 import { FaLinkedin, FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
