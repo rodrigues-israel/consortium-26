@@ -27,6 +27,7 @@ export default function Event(props: EventProps) {
         <a
           href={props.eventLink}
           className="eventRegister w-45 bg-red-600 text-center text-white font-montserrat font-semibold p-2 rounded-md text-[18px] -translate-y-17.5 transition-transform group-hover:translate-y-0"
+          target="_blank"
         >
           REGISTER
         </a>

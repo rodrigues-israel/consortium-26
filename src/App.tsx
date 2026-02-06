@@ -1,19 +1,35 @@
 import "./App.css";
-import Hero from "./components/Hero.tsx";
-import About from "./components/About.tsx";
 import Navbar from "./components/Navbar.tsx";
-import Speakers from "./components/SpeakerSection.tsx";
-import EventsSection from "./components/EventsSection.tsx";
 import Footer from "./components/Footer.tsx";
+import Home from "./pages/Home.tsx";
+import Events from "./pages/Events.tsx";
+import Speakers from "./pages/Speakers.tsx";
+import Team from "./pages/Team.tsx";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/events",
+      element: <Events />,
+    },
+    {
+      path: "/speakers",
+      element: <Speakers />,
+    },
+    {
+      path: "/team",
+      element: <Team />,
+    },
+  ]);
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Speakers />
-      <EventsSection />
+      <RouterProvider router={router} />
       <Footer />
     </>
   );

@@ -3,12 +3,12 @@ import SplitText from "./SplitText";
 import SpeakerCard from "./Speakers";
 import speakersBg from "../assets/speakers_bg.png";
 
-import kiran_bedi from "../assets/kiran_bedi.png";
-import simon from "../assets/simon.png";
-import jatin from "../assets/jatin.png";
-import anilswarup from "../assets/anilswarup.png";
-import pankhuri from "../assets/pankhuri.png";
-import aman from "../assets/aman.png";
+import kiran_bedi from "../assets/speakers/kiran_bedi.png";
+import simon from "../assets/speakers/simon.png";
+import jatin from "../assets/speakers/jatin.png";
+import anilswarup from "../assets/speakers/anilswarup.png";
+import pankhuri from "../assets/speakers/pankhuri.png";
+import aman from "../assets/speakers/aman.png";
 
 const speakersData = [
   {
@@ -52,7 +52,6 @@ const speakersData = [
 const Speakers = () => {
   return (
     <>
-      <section id="speakers" className="bg-white h-2"></section>
       <section
         className="bg-cover bg-center"
         style={{ backgroundImage: `url(${speakersBg})` }}

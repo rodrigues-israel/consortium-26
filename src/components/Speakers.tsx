@@ -8,7 +8,7 @@ export default function Speakers(props: SpeakersProps) {
   return (
     <>
       <div className="group bg-linear-to-b from-[#B20204] to-[#2F060E] h-100 w-80 rounded-4xl overflow-hidden">
-        <div className="font-montserrat text-white text-center font-bold text-2xl mt-7">
+        <div className="font-montserrat text-white text-center font-bold text-2xl mt-7 uppercase">
           {props.name}
         </div>
         <div className="text-white text-center text-xl">{props.title}</div>

@@ -5,11 +5,11 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import ecellLogoWhite from "../assets/ecell-white-img.png";
 
 const navigation = [
-  { name: "Home", href: "/#" },
-  { name: "About", href: "/#about" },
-  { name: "Speakers", href: "/#speakers" },
-  { name: "Events", href: "/#events" },
-  { name: "Contact", href: "/#footer" },
+  { name: "Home", href: "/" },
+  { name: "Speakers", href: "/speakers" },
+  { name: "Events", href: "/events" },
+  { name: "Team", href: "/team" },
+  { name: "Contact", href: "#footer" },
 ];
 
 const Navbar = () => {
@@ -20,8 +20,9 @@ const Navbar = () => {
           <a href="https://www.ecellvnit.org/">
             <span className="sr-only">E-Cell VNIT</span>
             <img
-              height={150}
-              width={150}
+              className=""
+              height={180}
+              width={180}
               src={ecellLogoWhite}
               alt="E-Cell VNIT"
             />
