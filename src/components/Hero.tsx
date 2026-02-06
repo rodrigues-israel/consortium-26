@@ -19,13 +19,15 @@ const Hero = () => {
           </div>
           <div className="flex flex-col gap-10 items-center mt-10 md:flex-row md:justify-center">
             <a
-              href="#events"
+              href="mailto:team_ecell@vnit.ac.in"
+              target="_blank"
               className="w-70 bg-linear-to-tr from-red-800 to-red-500 text-white shadow-lg text-2xl font-montserrat text-center rounded-2xl font-bold p-5 slide-in hover:scale-105 transition-transform"
             >
-              REGISTER
+              CONTACT US
             </a>
             <a
-              href=""
+              href="/schedule"
+              target="_blank"
               className="w-70 text-white text-2xl font-montserrat font-bold border-white border p-5 rounded-2xl text-center slide-in hover:scale-105 transition-transform"
             >
               SCHEDULE

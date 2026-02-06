@@ -33,7 +33,7 @@ const About = () => {
           </p>
           <p className="text-white text-center text-4xl font-montserrat">
             Check out events schedule{" "}
-            <a href="" className="underline">
+            <a href="/schedule" className="underline" target="_blank">
               HERE
             </a>
           </p>

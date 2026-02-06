@@ -6,6 +6,7 @@ import ecellLogoWhite from "../assets/ecell-white-img.png";
 
 const navigation = [
   { name: "Home", href: "/" },
+  { name: "Schedule", href: "/schedule" },
   { name: "Speakers", href: "/speakers" },
   { name: "Events", href: "/events" },
   { name: "Team", href: "/team" },

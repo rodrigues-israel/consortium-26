@@ -36,6 +36,7 @@ const Footer = () => {
                   <a
                     className="hover:opacity-75 uppercase"
                     href="https://startupconclave.ecellvnit.org/"
+                    target="_blank"
                   >
                     Startup Conclave
                   </a>
@@ -46,14 +47,6 @@ const Footer = () => {
                     href="https://expo.ecellvnit.org/"
                   >
                     Startup Expo
-                  </a>
-                  <a
-                    className="hover:opacity-75 uppercase"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.ecellvnit.org/merchandise/index.php"
-                  >
-                    Merchandise
                   </a>
                   <a
                     className="hover:opacity-75 uppercase"

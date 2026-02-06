@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar.tsx";
 import Footer from "./components/Footer.tsx";
 import Home from "./pages/Home.tsx";
+import Schedule from "./pages/Schedule.tsx";
 import Events from "./pages/Events.tsx";
 import Speakers from "./pages/Speakers.tsx";
 import Team from "./pages/Team.tsx";
@@ -12,6 +13,10 @@ function App() {
     {
       path: "/",
       element: <Home />,
+    },
+    {
+      path: "/schedule",
+      element: <Schedule />,
     },
     {
       path: "/events",

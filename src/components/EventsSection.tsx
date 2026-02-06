@@ -2,7 +2,7 @@ import SplitText from "./SplitText";
 import eventsBg from "../assets/eventsBg.png";
 import Event from "./Event";
 
-import vishleshan from "../assets/events/vishleshan.png";
+// import vishleshan from "../assets/events/vishleshan.png";
 import iplauction from "../assets/events/iplauction.png";
 import neo from "../assets/events/neo.png";
 import jugaad from "../assets/events/jugaad.png";
@@ -13,24 +13,25 @@ import ceo from "../assets/events/ceo.png";
 import hultprize from "../assets/events/hultprize.png";
 import internshipfair from "../assets/events/internshipfair.png";
 import networkingarena from "../assets/events/networkingarena.png";
+import pitchinthecar from "../assets/events/pitchinthecar.png";
 
 const eventsData = [
-  {
-    id: 1,
-    eventLogo: vishleshan,
-    eventTitle: "VISHLESHAN",
-    eventText:
-      "Vishleshan, 180DC VNIT's flagship Case Study Competition, provides an exceptional platform for students to demonstrate their strategic insight and innovative thinkings",
-    eventLink: "",
-  },
-  {
-    id: 2,
-    eventLogo: expo,
-    eventTitle: "ESCAPE ROOM",
-    eventText:
-      "The event combines consulting-style case puzzles with escape-room gamification, where teams solve challenges to unlock the next room and progress in the competition.",
-    eventLink: "",
-  },
+  // {
+  //   id: 1,
+  //   eventLogo: vishleshan,
+  //   eventTitle: "VISHLESHAN",
+  //   eventText:
+  //     "Vishleshan, 180DC VNIT's flagship Case Study Competition, provides an exceptional platform for students to demonstrate their strategic insight and innovative thinkings",
+  //   eventLink: "",
+  // },
+  // {
+  //   id: 2,
+  //   eventLogo: expo,
+  //   eventTitle: "ESCAPE ROOM",
+  //   eventText:
+  //     "The event combines consulting-style case puzzles with escape-room gamification, where teams solve challenges to unlock the next room and progress in the competition.",
+  //   eventLink: "",
+  // },
   {
     id: 3,
     eventLogo: iplauction,
@@ -61,7 +62,7 @@ const eventsData = [
     eventTitle: "StartUP Conclave",
     eventText:
       "StartUp Conclave is a national business plan competition that promotes entrepreneurship and fosters great ideas into successful undertakings",
-    eventLink: "https://suc.ecellvnit.org",
+    eventLink: "https://startupconclave.ecellvnit.org",
   },
   {
     id: 7,
@@ -93,23 +94,33 @@ const eventsData = [
     eventTitle: "HULT PRIZE",
     eventText:
       "Hult Prize is the world’s largest student startup competition focused on building SDG-aligned businesses",
-    eventLink: "https://www.hultprize.org/register",
+    eventLink: "https://www.instagram.com/hultprize_vnit/",
   },
   {
     id: 11,
     eventLogo: internshipfair,
     eventTitle: "Internship Fair",
-    eventText:
-      "The IPL Auction offers a platform for participants to witness world-class players and build the strongest team using analytical skills like budget management and prediction",
-    eventLink: "",
+    eventText: "CONNECT - GROW - INNOVATE",
+    eventLink: "mailto:team_ecell@vnit.ac.in",
+    details: "CONNECT",
   },
   {
     id: 12,
     eventLogo: networkingarena,
     eventTitle: "Networking Arena",
+    eventLink:
+      "https://unstop.com/o/E3sMC2w?lb=XXfTQEEf&utm_medium=Share&utm_source=teamvni42274&utm_campaign=Workshops",
     eventText:
       "Networking Arena connects experts across domains to exchange ideas, provide guidance, and foster collaboration.",
-    eventLink: "",
+  },
+  {
+    id: 14,
+    eventLogo: pitchinthecar,
+    eventTitle: "Pitch in the Car",
+    eventLink:
+      "https://unstop.com/o/CGW3AvD?lb=6vnimjjW&utm_medium=Share&utm_source=aryansin7258&utm_campaign=Competitions",
+    eventText:
+      "Pitch in the Car is a 4-minute startup pitch judged on innovation, clarity, feasibility, scalability, market potential, and founder confidence",
   },
 ];
 
@@ -142,6 +153,7 @@ const EventsSection = () => {
               eventTitle={event.eventTitle}
               eventText={event.eventText}
               eventLink={event.eventLink}
+              details={event.details}
             />
           ))}
         </div>

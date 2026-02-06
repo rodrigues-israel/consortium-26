@@ -1,4 +1,3 @@
-// import speakersBg from "../assets/speakers_bg.webp";
 import SplitText from "./SplitText";
 import SpeakerCard from "./Speakers";
 import speakersBg from "../assets/speakers_bg.png";
