@@ -2,7 +2,7 @@ import SplitText from "./SplitText";
 import eventsBg from "../assets/eventsBg.webp";
 import Event from "./Event";
 
-// import vishleshan from "../assets/events/vishleshan.png";
+import escaperoom from "../assets/events/escaperoom.webp";
 import iplauction from "../assets/events/iplauction.webp";
 import neo from "../assets/events/neo.webp";
 import jugaad from "../assets/events/jugaad.webp";
@@ -24,14 +24,15 @@ const eventsData = [
   //     "Vishleshan, 180DC VNIT's flagship Case Study Competition, provides an exceptional platform for students to demonstrate their strategic insight and innovative thinkings",
   //   eventLink: "",
   // },
-  // {
-  //   id: 2,
-  //   eventLogo: expo,
-  //   eventTitle: "ESCAPE ROOM",
-  //   eventText:
-  //     "The event combines consulting-style case puzzles with escape-room gamification, where teams solve challenges to unlock the next room and progress in the competition.",
-  //   eventLink: "",
-  // },
+  {
+    id: 2,
+    eventLogo: escaperoom,
+    eventTitle: "ESCAPE ROOM",
+    eventText:
+      "The event combines consulting-style case puzzles with escape-room gamification, where teams solve challenges to unlock the next room and progress in the competition",
+    eventLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScsR58O5viGcxSRaCAL69OYS2Y9dplU2vEt0C1qRPDGIV2ukQ/viewform?usp=send_form",
+  },
   {
     id: 3,
     eventLogo: iplauction,
@@ -53,7 +54,7 @@ const eventsData = [
     eventLogo: jugaad,
     eventTitle: "JUGAAD",
     eventText:
-      "JUGAAD is an annual event where teams receive ₹100 to maximize through creative ideation, bargaining, and financial management.",
+      "JUGAAD is an annual event where teams receive ₹100 to maximize through creative ideation, bargaining, and financial management",
     eventLink: "https://jugaad.ecellvnit.org",
   },
   {

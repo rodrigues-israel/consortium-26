@@ -414,7 +414,7 @@ const Team = () => {
         <div className="flex justify-center">
           <SplitText
             text="ADVISORY"
-            className="text-white text-shadow-lg text-shadow-red-900 text-center text-7xl font-poppins font-bold mt-10 p-5"
+            className="text-white text-shadow-lg text-shadow-red-900 text-center text-5xl md:text-7xl font-poppins font-bold mt-10 p-5"
             delay={100}
             duration={0.6}
             ease="power3.out"

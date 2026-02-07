@@ -13,7 +13,7 @@ const ScheduleCard = (props: ScheduleProps) => {
             {props.time}
           </div>
         </div>
-        <div className="text-center text-2xl md:text-3xl ml-5 p-2 pb-0 font-montserrat font-semibold uppercase">
+        <div className="text-center text-2xl md:text-3xl p-2 pb-0 font-montserrat font-semibold uppercase">
           {props.eventTitle}
         </div>
         <div className="text-xl md:text-2xl text-center font-semibold font-poppins p-2 text-red-950 uppercase">
